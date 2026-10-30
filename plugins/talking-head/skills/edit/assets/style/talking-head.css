@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/Quicksand-Variable.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: block;
+}
+
+:root {
+  --th-navy: #163a5f;
+  --th-ink: #202a35;
+  --th-paper: #f7f8fa;
+  --th-muted: #526171;
+  --th-line: #d7e1eb;
+  --th-caption-size: 60px;
+  --th-highlight-size: 70px;
+  --th-label-size: 44px;
+}
+
+.th-type { font-family: 'Quicksand', sans-serif; font-weight: 600; }
+.th-caption {
+  font-family: 'Quicksand', sans-serif;
+  font-size: var(--th-caption-size);
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  color: white;
+  text-shadow: 0 2px 5px rgb(0 0 0 / 75%);
+  overflow: visible;
+}
+.th-keyword {
+  display: inline-block;
+  vertical-align: baseline;
+  color: var(--th-navy);
+  background: var(--th-paper);
+  padding: 0.02em 0.16em 0.06em;
+  border-radius: 0.14em;
+  font-size: var(--th-highlight-size);
+  font-weight: 700;
+  text-shadow: none;
+}
+.th-panel {
+  box-sizing: border-box;
+  background: var(--th-paper);
+  color: var(--th-ink);
+  padding: 40px;
+  border-radius: 28px;
+  font-family: 'Quicksand', sans-serif;
+  box-shadow: 0 8px 24px rgb(16 32 48 / 10%);
+}
+.th-panel .th-keyword { padding: 0; background: transparent; }
+.th-heading { margin: 0; font-size: 76px; line-height: 1.18; font-weight: 700; }
+.th-label { margin: 0; font-size: var(--th-label-size); line-height: 1.3; font-weight: 600; }
+.th-muted { color: var(--th-muted); }
+.th-emphasis { color: var(--th-navy); font-weight: 700; }
+
+/* Layout, time and motion belong to each HyperFrames composition.
+   Reserve space for enlarged keywords; do not animate font-size and reflow text.
+   No CSS animations, timers or hover interactions are required for rendered video. */

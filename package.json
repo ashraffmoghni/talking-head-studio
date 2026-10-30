@@ -1,0 +1,9 @@
+{
+  "name": "talking-head-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Claude Code marketplace for minimal talking-head editing",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "validate": "node scripts/validate.mjs" }
+}

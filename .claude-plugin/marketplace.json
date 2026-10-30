@@ -1,0 +1,13 @@
+{
+  "name": "ashraff-editing",
+  "owner": { "name": "ashraffmoghni" },
+  "metadata": { "description": "Minimal talking-head editing tools for Claude Code." },
+  "plugins": [
+    {
+      "name": "talking-head",
+      "source": "./plugins/talking-head",
+      "description": "Calm, readable talking-head edits with Quicksand, navy emphasis, and HyperFrames.",
+      "version": "1.0.0"
+    }
+  ]
+}

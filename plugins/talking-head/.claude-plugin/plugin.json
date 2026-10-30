@@ -1,0 +1,8 @@
+{
+  "name": "talking-head",
+  "version": "1.0.0",
+  "description": "Minimal talking-head editing with local footage, Quicksand typography, navy highlights, and restrained motion.",
+  "author": { "name": "ashraffmoghni" },
+  "repository": "https://github.com/ashraffmoghni/talking-head-studio",
+  "keywords": ["video", "hyperframes", "talking-head", "captions", "motion-graphics"]
+}
